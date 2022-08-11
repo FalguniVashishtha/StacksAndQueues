@@ -1,12 +1,12 @@
 package com.bridgelabz;
 
 public class MyStack {
-    static class Node {
-        int data;
-        Node next;
-        Node(int data) {
-            this.data = data;
-            this.next = null;
-        }
+    int data;
+    MyStack next;
+    // constructor to create a new linked list node
+    public MyStack(int data)
+    {
+        this.data = data;
+        next = null;
     }
 }
